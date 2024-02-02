@@ -40,7 +40,7 @@ const doc = new Document({
                     margin: {
                         left: 0,
                         right: 0,
-                        top: 5
+                        top: 0
                     },
                     size: {
                         orientation: PageOrientation.LANDSCAPE

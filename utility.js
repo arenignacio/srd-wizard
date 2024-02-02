@@ -4,7 +4,7 @@ import imageSize from "image-size";
  * Get size as percentage of original size
  * @param {*} doc 
  */
-export default function fitImage (image, targetWidth, targetHeight) {
+export default function resize (image, targetWidth, targetHeight) {
    
     const originalSize = imageSize(image);
     const originalAspectRatio = originalSize.width / originalSize.height;
